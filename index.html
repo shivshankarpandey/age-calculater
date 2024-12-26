@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-header">
+            <i class="fas fa-calendar-alt"></i>
+            <h1>Age Calculator</h1>
+        </div>
+        <div class="current-date">
+            <p id="currDate"></p>
+        </div>
+        <div class="input-section">
+            <p>Enter your Date of Birth</p>
+            <div class="input-wrapper">
+                <i class="fas fa-birthday-cake"></i>
+                <input type="text" placeholder="MM/DD/YYYY" id="DOB">
+            </div>
+            <button id="CalcAge">
+                <i class="fas fa-calculator"></i>
+                Calculate Age
+            </button>
+        </div>
+    </div>
+    <div id="displayAge" class="result-popup">
+        <div class="result-content">
+            <i class="fas fa-hourglass-half"></i>
+            <p id="age"></p>
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
