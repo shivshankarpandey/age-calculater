@@ -63,7 +63,7 @@ A sleek and modern age calculator built with HTML, CSS, and JavaScript that not 
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/shivshankarpandey/age-calculator.git
+git clone https://github.com/shivshankarpandey/age-calculater.git
 ```
 
 2. **Navigate to project**
@@ -156,4 +156,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Background image from [source]
 
 ---
-Made with ❤️ by [Shivshankar pandey]: https://github.com/shivshankarpandey
+Made with ❤️ by [Shivshankar pandey]: https://github.com/shivshankarpandey/age-calculater.git
